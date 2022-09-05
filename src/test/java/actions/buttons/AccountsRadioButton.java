@@ -28,7 +28,7 @@ public class AccountsRadioButton extends LoginButton {
 	
 	public static void main(String[] args) throws InterruptedException, IOException {
 
-		login("Edge");
+		login("chrome");
 
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\resources\\configuration.properties");
 		Properties properties = new Properties();
